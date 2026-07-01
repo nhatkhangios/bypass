@@ -27,8 +27,7 @@ client.on(Events.InteractionCreate, async interaction => {
       new ButtonBuilder()
         .setLabel("MỞ MENU")
         .setStyle(ButtonStyle.Link)
-        .setURL("
-               https://raw.githubusercontent.com/ ")
+        .setURL("https://raw.githubusercontent.com/nhatkhangios/bypass/main/index.html")
     );
 
     await interaction.reply({
